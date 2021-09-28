@@ -5,3 +5,6 @@
 - Please include some examples in main() method of every Solution file. 
 - Anytime commit your solutions to your own GitHub repo. When you want to submit your solution, just open a Pull Request to main repository you forked in the 1st step. For details see https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 - You can open as much as Pull Requests you want.
+
+## Questions:
+https://docs.google.com/spreadsheets/d/1RoEfyR9hydWRflFNhMr4F3hR3tgCOE_EFaVCBits-UE/edit#gid=0
