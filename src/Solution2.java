@@ -1,15 +1,21 @@
-package org.itsociety;
-
 public class Solution2 {
-  /*
-  For a given array, write a Java program to check if a given character exists or not in the array.
-   */
 
     public static void main(String[] args) {
-        
+        char ch[] = {'a', 'e', 'f', 'w', 'y'};
+        char given = 'a';
+        System.out.println(checkArray(ch, given));
     }
-    public static Boolean exist(){
 
-     return false;
+    public static Boolean checkArray(char ch [], char given) {
+
+        for (int i = 0; i < ch.length; i++) {
+            if (ch[i] == given) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        return false;
     }
 }
+
