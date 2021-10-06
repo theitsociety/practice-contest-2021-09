@@ -11,9 +11,9 @@ public class Solution8 {
     public static void maxLength(String[] arr) {
         List<String> longestElements=new ArrayList<>();
         int maxSize = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length(); j++) {
-                if (j > 0) {
+        for(String str: arr){
+            for (int j = 0; j < str.length(); j++) {
+                if (j > maxSize) {
                     maxSize = j;
                 }
             }
