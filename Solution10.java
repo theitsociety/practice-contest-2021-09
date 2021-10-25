@@ -6,7 +6,7 @@
                 j = j - 1;
             }
 
-            // printing the reversed array
+            
             System.out.println("Reversed array is: ");
             for (int k = 0; k < n; k++) {
                 System.out.println(b[k]);
