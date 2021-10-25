@@ -9,7 +9,7 @@
             
             System.out.println("Reversed array is: ");
             for (int k = 0; k < n; k++) {
-                System.out.println(b[k]);
+                System.out.println(a[k]);
             }
 
         }
